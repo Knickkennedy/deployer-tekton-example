@@ -24,8 +24,3 @@ spec:
 
               echo "Your name is: $(params.name)"
               echo "Your age is: $(params.age)"
-      params:
-        - name: name
-          value: $(params.name)
-        - name: age
-          value: $(params.age)
